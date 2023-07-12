@@ -6,7 +6,7 @@ JSON seleccionada, y procesará las consultas y modificaciones realizadas sobre
 ella. Por su parte, el cliente será responsable de realizar las consultas y
 modificaciones necesarias.
 
-Base de datos seleccionada: municipios.json
+Base de datos seleccionada: `municipios.json`
 
 URL: https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.4/download/municipios.json
 
