@@ -6,8 +6,9 @@ JSON seleccionada, y procesará las consultas y modificaciones realizadas sobre
 ella. Por su parte, el cliente será responsable de realizar las consultas y
 modificaciones necesarias.
 
-Base de datos seleccionada: municipios.json:
-URL:https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.4/downl
+Base de datos seleccionada: municipios.json
+
+URL: https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.4/downl
 oad/municipios.json
 
 La misma representa la lista de las entidades que representan la división político
@@ -35,15 +36,17 @@ escuchar en todas las interfaces de red disponibles.
 4. Una vez hecho esto, tendremos que saber cual es la dirección IP de nuestra
 PC que almacena al servidor. Para averiguar la misma, tenemos varias
 opciones, una de ellas es correr el comando `ipconfig` en la terminal de windows.
+
 Supongamos que la IPv4 de la PC que almacena el servidor es 192.168.1.5.
 
-5. Para comunicarnos mediante `cliente.py`, debemos ejecutar el archivo python
+6. Para comunicarnos mediante `cliente.py`, debemos ejecutar el archivo python
 y pasarle como argumento la IP de la pc que almacena el servidor.
+
 Por ejemplo: `Python3 cliente.py 192.168.1.5`
 
-7. Allí, ya podremos hacerle consultar e interactuar con la API
+8. Allí, ya podremos hacerle consultar e interactuar con la API
 
-8. Si queremos comunicarnos mediante el navegador, abrimos DOCS.
+9. Si queremos comunicarnos mediante el navegador, abrimos DOCS.
 La URL será: `http://192.168.1.5:8000/docs`
 
 
